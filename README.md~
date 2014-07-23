@@ -1,8 +1,7 @@
-# [Twitter Bootstrap](http://getbootstrap.com/) skeleton for [DocPad](https://github.com/bevry/docpad)
+# Developer Space Demo Page
 
-Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions.
-
-It started as a [Coffeekup](http://coffeekup.org/) variant of Bevry's Bootstrap skeleton. It uses Coffeekup instead of Eco. I have also updated it to use [Twitter Bootstrap 3](http://getbootstrap.com/getting-started/#migration)
+This demo page is used to create a functional mockup for the P4All developer space.
+It was realized using [Twitter Bootstrap](http://getbootstrap.com/) skeleton for [DocPad](https://github.com/bevry/docpad)
 
 ## Getting Started
 
@@ -14,6 +13,7 @@ It started as a [Coffeekup](http://coffeekup.org/) variant of Bevry's Bootstrap 
 	git clone https://github.com/deinhofer/twitter-bootstrap-coffeekup.docpad.git
 	cd twitter-bootstrap-coffeekup.docpad
 	npm install
+	docpad update
 	docpad run
 	```
 
