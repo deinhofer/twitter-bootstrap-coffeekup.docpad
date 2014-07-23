@@ -1,0 +1,16 @@
+# how to get collection of pages
+
+          a class: "navbar-brand", href: "/", @site.title
+          div class: "collapse navbar-collapse", ->
+            ul class: "nav navbar-nav", ->
+              for document in @getCollection('pages').toJSON()
+                li
+                  typeof: "sioc:Page"
+                  about: document.url
+                  class: ('active' if @document.url is document.url)
+                  ->
+                    a
+                      href: document.url
+                      property: "dc:title"
+                      document.title
+

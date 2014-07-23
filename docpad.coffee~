@@ -15,7 +15,7 @@ docpadConfig = {
 			url: "http://AT.developerspace.com"
 
 			# The default title of our website
-			title: "D-Space Assistive Technologies"
+			title: "Developer Space for AT"
 
 			# The website description (for SEO)
 			description: """
